@@ -10,13 +10,15 @@ The ForIT package allows the computation of the biomass and volume functions car
 \tabular{ll}{Package: \tab ForIT\cr
              Type: \tab Package\cr
              Version: \tab 1.1 \cr
-             Date: \tab 2017-02-28\cr License: \tab 3.0}}
+             Date: \tab 2017-02-28\cr
+             License: \tab 3.0}}
 \author{
 Nicola Puletti, Cristiano Castaldi, Maurizio Marchi, Roberto Scotti
 Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
  
 }
-    \references{
+
+\references{
 Gasparini, P., Tabacchi, G.(eds), 2011. \emph{L'Inventario
 Nazionale delle Foreste e dei serbatoi forestali di Carbonio INFC 2005.
 Secondo inventario forestale nazionale italiano. Metodi e risultati}.
