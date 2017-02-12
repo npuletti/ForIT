@@ -1,0 +1,9 @@
+Package: ForIT
+Type: Package
+Title: Functions from the 2nd Italian Forest Inventory (INFC)
+Version: 1.1
+Date: 2017-02-28
+Author: Nicola Puletti, Cristiano Castaldi, Maurizio Marchi, Roberto Scotti
+Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
+Description: This package provides estimates of tree volume and biomass by functions from Italian NFI
+License: GPL-3
