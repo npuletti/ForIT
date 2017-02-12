@@ -7,14 +7,16 @@
 The ForIT package allows the computation of the biomass and volume functions carried out by Gasparini and Tabacchi (2011) and Tabacchi et al. (2011a) during the 2nd Italian National Forest Inventory. An English description of the methodology is provided by Tabacchi et al. (2011b). This package is intended as the translation in R of the literature cited above.
 }
 \details{
-\tabular{ll}{ Package: \tab ForIT\cr Type: \tab Package\cr Version: \tab 1.1\cr Date: \tab 2017-02-28\cr License: \tab 3.0\cr
-}
+\tabular{ll}{Package: \tab ForIT\cr
+             Type: \tab Package\cr
+             Version: \tab 1.1 \cr
+             Date: \tab 2017-02-28\cr License: \tab 3.0}}
 \author{
 Nicola Puletti, Cristiano Castaldi, Maurizio Marchi, Roberto Scotti
 Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
+ 
 }
-
-\references{
+    \references{
 Gasparini, P., Tabacchi, G.(eds), 2011. \emph{L'Inventario
 Nazionale delle Foreste e dei serbatoi forestali di Carbonio INFC 2005.
 Secondo inventario forestale nazionale italiano. Metodi e risultati}.
