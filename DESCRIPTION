@@ -7,3 +7,6 @@ Author: Nicola Puletti, Cristiano Castaldi, Maurizio Marchi, Roberto Scotti
 Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
 Description: This package provides estimates of tree volume and biomass by functions from Italian NFI
 License: GPL-3
+LazyLoad: yes
+LazyData:yes
+NeedCompilation: no
