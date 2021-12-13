@@ -1,12 +1,46 @@
 Package: ForIT
-Type: Package
-Title: Functions from the 2nd Italian Forest Inventory (INFC)
-Version: 1.1
-Date: 2017-02-28
-Author: Nicola Puletti, Cristiano Castaldi, Maurizio Marchi, Roberto Scotti
-Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
-Description: This package provides estimates of tree volume and biomass by functions from Italian NFI
-License: GPL-3
-LazyLoad: yes
-LazyData:yes
-NeedCompilation: no
+Title: Functions to estimate tree volume and phytomass in the Italian forest inventory 2005
+Version: 2.0.0.9000
+Authors@R: c(
+    person(given = "Nicola",
+           family = "Puletti",
+           role = c("aut", "cre"),
+           email = "x@y.z",
+           comment = c(ORCID = "...")),
+    person(given = "Mirko",
+           family = "Grotti",
+           role = c("aut"),
+           email = "x@y.z",
+           comment = c(ORCID = "...")),
+    person(given = "Roberto",
+           family = "Scotti",
+           role = c("aut"),
+           email = "scotti@uniss.it",
+           comment = c(ORCID = "0000-0001-7394-4473"))
+        )
+Description: Tabacchi et al. (2011) published a very detailed study producing a uniform system of functions to estimate tree volume and
+    phytomass components (stem, branches, stool). The estimates of the 2005 Italian forest inventory (https://inventarioforestale.org/) 
+    are based on these functions. The study documents the domain of applicability of each function and the equations to quantify estimates
+    accuracies for individual estimates as well as for aggregated estimates. This package makes the functions available in the R environment. 
+    Version 2 exposes two distinc functions for individual and summary estimates. To facilitate access to the functions, tree species 
+    identification is now based on EPPO species codes (https://data.eppo.int/).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    Matrix,
+    magrittr,
+    dplyr,
+    purrr,
+    tibble,
+    tidyr,
+    RColorBrewer,
+    metR,
+    rlang,
+    ggplot2
+Suggests: 
+    testthat
+Depends: 
+    R (>= 2.10)
